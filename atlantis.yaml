@@ -1,0 +1,13 @@
+ssh_authorized_keys:
+- ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDCII8JQnokIguZhbMwRQKhWyrjfr7oTxpWzC21Bb8cGXdsb4JVlR27DMcibuvxCDsbuvH/BIfQn+8h0kVlLuKzYOOloXAYqI68aDRmzC9UE36GgMZvV5kGWreyzY/xcDRlNi+InJ/z0A2e45zB2lXiHAv6IsmmV+ZC8wXqivJKSJbQOyBIh2roAA67XHj5plyj+F5MH+madLu1oUnoW1w9NqwX9+kDmmgxTCDspswUTtcchDu8fA9jZJ5fTVY6vjwKN6GJtwTrnUo+j8vgDJeByKckRWlfMrsyroSMIZr1M32EyfUid3Mts/V7skmtOlM1TLTR85G+GX1DPLQgUQTb
+hostname: atlantis-k3s
+
+k3os:
+  dns_nameservers:
+  - 192.168.1.13
+  ntp_servers:
+  - 0.us.pool.ntp.org
+  - 1.us.pool.ntp.org
+  k3s_args:
+  - server
+  password: "$1$ZAAZQDQn$YmGX97Puj8z2J6goR8.Bc0"
